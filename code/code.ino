@@ -48,13 +48,13 @@ int   valget1;
 
 //  --------- Config ---------- //
 //AWS IOT config, change these:
-char wifi_ssid[]       = "LoRa";
-char wifi_password[]   = "12345678s";
-char aws_endpoint[]    = "adaexyrkpjo5d-ats.iot.ap-southeast-1.amazonaws.com";
-char aws_key[]         = "AKIA5N6LFCOKAAFEDQUY";
-char aws_secret[]      = "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";
-char aws_region[]      = "ap-southeast-1";
-const char* aws_topic  = "$aws/things/iotjuly/shadow/update";
+char wifi_ssid[]       = "";
+char wifi_password[]   = "";
+char aws_endpoint[]    = "";
+char aws_key[]         = "";
+char aws_secret[]      = "";
+char aws_region[]      = "";
+const char* aws_topic  = "";
 int port = 443;
 
 // If stuff isn't working right, watch the console:
